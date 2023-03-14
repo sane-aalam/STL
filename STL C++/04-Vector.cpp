@@ -44,14 +44,15 @@ int main(){
     cout << "back element of the vector " << v.back();
     cout << endl;
 
-    // declare vector with value 
+    // Case 1 : ( 1D Array )
     vector<int>arr (5,1);
 
     for(auto it: arr){
         cout << it << " ";
     }
     cout << endl;
-    // declare 2-d Vector with value
+    
+    // Case 2 : ( 2D Array ) 
     int n = 4;
     int m = 4;
     vector<vector<int>> dis(n,vector<int>(m,55));
